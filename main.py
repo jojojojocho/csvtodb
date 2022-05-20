@@ -8,6 +8,10 @@ if __name__ == '__main__':
 
                            db='datingjpa', charset='utf8')
 
+    # conn = pymysql.connect(host='springboot-jpadating.cporkyk21dry.ap-northeast-2.rds.amazonaws.com', user='root', password='12345678',
+    #
+    #                         db='datingjpa', charset='utf8')
+
     curs = conn.cursor()
 
     conn.commit()
